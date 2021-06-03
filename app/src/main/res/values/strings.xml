@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Translateapp</string>
+    <string name="picturetranslate">Resimden Çeviri</string>
+    <string name="texttranslate">Metinden Çeviri</string>
+    <string name="metin_gir">Hello World.</string>
+    <string name="translate">Çevir</string>
+    <string name="text_to_speech">Sesli Oku</string>
+    <string name="textview">TextView</string>
+    <string name="iv1">Image Viewer</string>
+    <string name="xcropimage">Resmi Kırp</string>
+    <string name="xstart_translate">Çeviriyi Başlat</string>
+    <string name="xocrpopt">OCR çıktısı burada görünecek</string>
+    <string name="spicture">Resim Seç</string>
+    <string name="take_picture">Resim Çek</string>
+    <string name="gecmisGoruntule">Geçmişi Görüntüle</string>
+    <string name="gecmis_temizle">Geçmişi Temizle</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bHeight">60dp</dimen>
+    <dimen name="bWidth">280dp</dimen>
+    <dimen name="switchwidth">150dp</dimen>
+    <dimen name="switchheight">60dp</dimen>
+</resources>
