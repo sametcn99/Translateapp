@@ -30,7 +30,6 @@ public class metin_ceviri extends AppCompatActivity {
     TextView translatedTextView;
     EditText TextInputView;
     String apiKey = getIBM_CLOUD_API_KEY();
-    //IamAuthenticator authenticator = new IamAuthenticator("kfeXzCurZ6WEW05HkkEPszdlITvXGtrtSFmn9Z9Qc3CD");
     IamAuthenticator authenticator = new IamAuthenticator(apiKey);
     LanguageTranslator languageTranslator = new LanguageTranslator("2018-05-01", authenticator);
     StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
