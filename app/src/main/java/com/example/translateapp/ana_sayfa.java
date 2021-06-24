@@ -20,7 +20,7 @@ public class ana_sayfa extends AppCompatActivity {
         AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_FOLLOW_SYSTEM);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ana_sayfa);
-        Button bTextTranslation = findViewById(R.id.TextTranslate);
+        /*Button bTextTranslation = findViewById(R.id.TextTranslate);
         Button xPictureButton = findViewById(R.id.PictureTranslate);
         xPictureButton.setOnClickListener(v -> {
             Intent intent = new Intent(ana_sayfa.this, resim_ceviri.class);
@@ -29,8 +29,10 @@ public class ana_sayfa extends AppCompatActivity {
         bTextTranslation.setOnClickListener(v -> {
             Intent intent = new Intent(ana_sayfa.this, metin_ceviri.class);
             startActivity(intent);
-        });
+        });*/
         appPermissions();
+        Intent intent = new Intent(ana_sayfa.this, newLayout.class);
+        startActivity(intent);
     }
 
     private void appPermissions() {

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".metin_ceviri"
+    tools:ignore="LabelFor">
+
+    <EditText
+        android:id="@+id/t_input"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:text="@string/metin_gir" />
+
+    <TextView
+        android:id="@+id/translated_text"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|bottom"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/start_translate"
+            android:layout_width="@dimen/bWidth"
+            android:layout_height="@dimen/bHeight"
+            android:layout_gravity="center_horizontal|center"
+            android:text="@string/translate" />
+
+        <Button
+            android:id="@+id/b_text_to_speech"
+            android:layout_width="@dimen/bWidth"
+            android:layout_height="@dimen/bHeight"
+            android:layout_gravity="center_horizontal|center"
+            android:text="@string/text_to_speech" />
+
+        <Button
+            android:id="@+id/gecmisGoruntule"
+            android:layout_width="@dimen/bWidth"
+            android:layout_height="@dimen/bHeight"
+            android:text="@string/gecmisGoruntule" />
+        <Button
+            android:id="@+id/spicture"
+            android:layout_width="@dimen/bWidth"
+            android:layout_height="@dimen/bHeight"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/spicture" />
+
+        <Button
+            android:id="@+id/take_picture"
+            android:layout_width="@dimen/bWidth"
+            android:layout_height="@dimen/bHeight"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/take_picture" />
+
+        <Button
+            android:id="@+id/xcropimage"
+            android:layout_width="@dimen/bWidth"
+            android:layout_height="@dimen/bHeight"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/xcropimage" />
+
+    </LinearLayout>
+
+</LinearLayout>

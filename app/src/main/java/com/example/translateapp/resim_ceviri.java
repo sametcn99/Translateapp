@@ -99,7 +99,7 @@ public class resim_ceviri extends AppCompatActivity {
                         .addOnSuccessListener(new OnSuccessListener<Text>() {
                             @Override
                             public void onSuccess(Text visionText) {
-                                OCROutputView.setText(visionText.getText());
+                                //OCROutputView.setText(visionText.getText());
                                 xOutput = visionText.getText();
                             }
                         })

@@ -10,7 +10,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
@@ -22,14 +21,17 @@
         android:usesCleartextTraffic="true"
         tools:ignore="MissingClass"
         tools:targetApi="m">
-        <activity android:name=".ceviri_gecmisi"></activity>
+        <activity android:name=".newLayout"></activity>
+        <activity android:name=".ceviri_gecmisi" />
         <activity android:name=".resim_ceviri" />
         <activity android:name=".metin_ceviri" />
         <activity android:name=".ana_sayfa">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

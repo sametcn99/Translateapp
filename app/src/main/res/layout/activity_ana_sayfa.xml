@@ -7,20 +7,4 @@
     android:gravity="bottom"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".ana_sayfa">
-
-    <Button
-        android:id="@+id/PictureTranslate"
-        android:layout_width="@dimen/bWidth"
-        android:layout_height="@dimen/bHeight"
-        android:layout_gravity="center"
-        android:text="@string/picturetranslate" />
-
-    <Button
-        android:id="@+id/TextTranslate"
-        android:layout_width="@dimen/bWidth"
-        android:layout_height="@dimen/bHeight"
-        android:layout_gravity="center"
-        android:text="@string/texttranslate" />
-
-</LinearLayout>
+    tools:context=".ana_sayfa"/>
